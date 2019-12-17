@@ -1,0 +1,38 @@
+.Rank-container{
+    height:500px;
+}
+
+.outputForm{
+    font-size:30px;
+    font-size:3vw;
+    color:#fff;
+    text-align:left;
+    height:300px;
+}
+
+.name-section span{
+    font-size:20px;
+}
+
+.entries-container{
+    height:150px;
+}
+
+article{
+    box-shadow: 0 0 10px 1px white;
+    height:350px;
+    width:100%;
+    margin:0;
+}
+
+/* for Small devices ,767≥ col-sm ≥576px */
+@media screen and (max-width: 767.98px){
+    .Rank-container{
+        margin-bottom:100px;
+    }
+
+    .outputForm{
+        font-size:30px;
+    }
+
+}
